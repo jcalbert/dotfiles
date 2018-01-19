@@ -35,3 +35,5 @@ bindkey -e
 #must be the last command
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
+
+. ~/miniconda2/etc/profile.d/conda.sh
