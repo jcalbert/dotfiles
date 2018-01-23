@@ -162,7 +162,7 @@ c.InteractiveShell.autocall = 0
 c.InteractiveShell.autoindent = True
 
 ## Enable magic commands to be called without the leading %.
-c.InteractiveShell.automagic = False
+c.InteractiveShell.automagic = True
 
 ## The part of the banner to be printed before the profile
 #c.InteractiveShell.banner1 = 'Python 2.7.13 |Anaconda, Inc.| (default, Sep 30 2017, 18:12:43) \nType "copyright", "credits" or "license" for more information.\n\nIPython 5.4.1 -- An enhanced Interactive Python.\n?         -> Introduction and overview of IPython\'s features.\n%quickref -> Quick reference.\nhelp      -> Python\'s own help system.\nobject?   -> Details about \'object\', use \'object??\' for extra details.\n'
