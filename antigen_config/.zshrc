@@ -31,6 +31,8 @@ unsetopt autocd
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
+#one-work cheatsheets
+cheat () {curl cheat.sh/$1}
 
 #must be the last command
 antigen bundle zsh-users/zsh-syntax-highlighting
