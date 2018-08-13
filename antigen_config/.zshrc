@@ -34,6 +34,9 @@ bindkey -e
 #one-work cheatsheets
 cheat () {curl cheat.sh/$1}
 
+#default go path
+export GOPATH=$HOME/go
+
 #must be the last command
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
