@@ -8,9 +8,9 @@
 
 general {
 	colors = true
-	color_good = "#BBBBBB"
-	color_bad = "#CC1616"
-	color_degraded = "#55858E"
+#	color_good = "#BBBBBB"
+#	color_bad = "#CC1616"
+#	color_degraded = "#55858E"
 	interval = 2
 }
 
@@ -30,19 +30,18 @@ order += "load"
 order += "tztime local"
 
 
-
 volume master {
-	format = " ♪: %volume  " 
+	# format = " ♪: %volume  " 
 	device = "default"
 	mixer = "Master"
 	mixer_idx = 0
 	# termsyn font
-#	format = "À %volume "
+	format = "Volume : %volume "
 }
 
 
 cpu_temperature 0 {
-	format = " Temp %degrees C"
+	format = " CPU Temp %degrees C"
 	path = "/sys/class/hwmon/hwmon1/temp1_input"
 	max_threshold = 95
 }
