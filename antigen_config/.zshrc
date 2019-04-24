@@ -34,6 +34,10 @@ bindkey -e
 #one-work cheatsheets
 cheat () {curl cheat.sh/$1}
 
+#display qr data in the console
+qrcat () {qrencode -t utf8 $1}
+qrpaste () {xclip -o | qrencode -t utf8 $1}
+
 #default go path
 export GOPATH=$HOME/go
 
