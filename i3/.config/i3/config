@@ -208,3 +208,8 @@ client.background       #ffffff
 
 ###Disable mouse focus
 focus_follows_mouse no
+
+
+###Make matplotlib windows float
+
+for_window [title="^Figure " class="^ $"] floating enable
