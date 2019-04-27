@@ -41,6 +41,9 @@ qrpaste () {xclip -o | qrencode -t utf8 $1}
 #default go path
 export GOPATH=$HOME/go
 
+#generic syntax highlighting
+alias pcat='pygmentize -f 256 -O style=native -g'
+
 #must be the last command
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
