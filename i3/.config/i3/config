@@ -39,9 +39,6 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# start special terminal
-bindsym $mod+Shift+Return exec "i3-sensible-terminal -l zshlay"
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
