@@ -207,6 +207,10 @@ client.background       #ffffff
 focus_follows_mouse no
 
 
-###Make matplotlib windows float
+###Make certain windows float
 
+#matplotlib
 for_window [title="^Figure " class="^ $"] floating enable
+
+#guake
+for_window [instance="guake"] floating enable
