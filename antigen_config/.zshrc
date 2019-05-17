@@ -44,6 +44,28 @@ export GOPATH=$HOME/go
 #generic syntax highlighting
 alias pcat='pygmentize -f 256 -O style=native -g'
 
+#gentle reminders
+##don't use ifconfig
+IFCONFIG_PATH=$(which ifconfig)
+function ifconfig () {
+    echo "Consider using $(tput smso)ip addr$(tput rmso) instead of ifconfig."
+    sleep 2
+    $IFCONFIG_PATH $@
+}
+
+##use dtrx
+TAR_PATH=$(which tar)
+fucntion tar () {
+    while getopts ":x" opt; do
+        case $opt in
+            x)
+                echo "Consider using $(tput smso)dtrx$(tput rmso) instead of tar -x."
+                sleep 2
+        esac
+    done
+    $TAR_PATH $@
+}
+
 #must be the last command
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
