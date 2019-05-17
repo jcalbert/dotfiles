@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Note: this reques that the ckb-next-daemon be installed and running
+# also requires i3ipc
 
 import i3ipc
 import subprocess
