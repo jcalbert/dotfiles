@@ -17,7 +17,7 @@ antigen theme sorin
 
 
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/jcalbert/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
