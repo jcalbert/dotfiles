@@ -12,7 +12,7 @@ antigen bundle z
 antigen bundle colored-man-pages
 #antigen bundle conda
 
-antigen theme sorin
+antigen theme nicoulaj
 
 
 
