@@ -46,7 +46,7 @@ zstyle ':vcs_info:*+set-message:*' hooks emodir
 # 128288 End Emoji block
 function str_to_emo() {
   USTART=127744
-  UEND=128511
+  UEND=128288
   HASHSTR=$1
   HASHSIZE=$UEND-$USTART
 
