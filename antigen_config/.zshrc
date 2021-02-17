@@ -13,7 +13,7 @@ antigen bundle colored-man-pages
 #antigen bundle conda
 
 #antigen theme nicoulaj
-antigen bundle $HOME/.dotfiles/antigen_config/custom/oh-my-zsh/themes
+#antigen bundle $HOME/.dotfiles/antigen_config/custom/oh-my-zsh/themes
 antigen bundle $HOME/.dotfiles/antigen_config/custom/oh-my-zsh/themes repo-hash.zsh-theme --no-local-clone
 #antigen theme $HOME/.dotfiles/antigen_config/custom/oh-my-zsh/themes repo-hash.zsh-theme
 
